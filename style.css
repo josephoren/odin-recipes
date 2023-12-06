@@ -1,0 +1,9 @@
+.recipe-title {
+    color: rgb(164, 85, 16);
+    font-size: 36px;
+}
+
+.description {
+    font-style: italic;
+    color: seagreen;
+}
