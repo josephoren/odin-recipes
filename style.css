@@ -1,9 +1,41 @@
 .recipe-title {
     color: rgb(164, 85, 16);
     font-size: 36px;
+    text-align: center;
 }
 
 .description {
     font-style: italic;
     color: seagreen;
+    text-align: center;
+}
+
+body {
+    background: wheat;
+}
+
+li {
+    padding: 2px;
+}
+
+.recipe-link {
+    border: 2px solid;
+    width: 12%;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.food-image {
+    display: block;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-link:hover {
+    background-color: aquamarine;
 }
